@@ -1,0 +1,8 @@
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+#profilepicture{
+    width: 100px;
+    height: 200px;
+}
