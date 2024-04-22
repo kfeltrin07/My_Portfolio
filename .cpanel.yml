@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /templates index.html $DEPLOYPATH
+    - /static -R img $DEPLOYPATH
+    - /static -R files $DEPLOYPATH
